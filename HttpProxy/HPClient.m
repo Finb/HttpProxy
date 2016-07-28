@@ -9,5 +9,14 @@
 #import "HPClient.h"
 
 @implementation HPClient
-
+- (instancetype)initWithSocket:(GCDAsyncSocket *)socket
+{
+    self = [super init];
+    if (self) {
+        self.socket = socket;
+        self.socket.delegate = self;
+        self.queue = socket.delegateQueue;
+    }
+    return self;
+}
 @end

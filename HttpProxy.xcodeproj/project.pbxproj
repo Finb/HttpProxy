@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0605DAB91D49B18E00811101 /* HPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0605DAB81D49B18E00811101 /* HPConnection.m */; };
+		0605DABC1D49B1A400811101 /* HPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0605DABB1D49B1A400811101 /* HPServer.m */; };
+		0605DABF1D49B1AF00811101 /* HPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0605DABE1D49B1AF00811101 /* HPClient.m */; };
+		0605DAC21D49BE0400811101 /* HPProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0605DAC11D49BE0400811101 /* HPProxy.m */; };
+		0605DAC51D49C0DE00811101 /* HPParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0605DAC41D49C0DE00811101 /* HPParser.m */; };
 		06CADFE91D474953009FC910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CADFE81D474953009FC910 /* main.m */; };
 		06CADFEC1D474953009FC910 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CADFEB1D474953009FC910 /* AppDelegate.m */; };
 		06CADFEF1D474953009FC910 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CADFEE1D474953009FC910 /* ViewController.m */; };
 		06CADFF21D474953009FC910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06CADFF01D474953009FC910 /* Main.storyboard */; };
 		06CADFF41D474953009FC910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06CADFF31D474953009FC910 /* Assets.xcassets */; };
 		06CADFF71D474953009FC910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06CADFF51D474953009FC910 /* LaunchScreen.storyboard */; };
+		06CAE0041D474A02009FC910 /* Documentation.html in Resources */ = {isa = PBXBuildFile; fileRef = 06CADFFF1D474A02009FC910 /* Documentation.html */; };
+		06CAE0051D474A02009FC910 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CAE0011D474A02009FC910 /* GCDAsyncSocket.m */; };
+		06CAE0061D474A02009FC910 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CAE0031D474A02009FC910 /* GCDAsyncUdpSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0605DAB71D49B18E00811101 /* HPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPConnection.h; sourceTree = "<group>"; };
+		0605DAB81D49B18E00811101 /* HPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPConnection.m; sourceTree = "<group>"; };
+		0605DABA1D49B1A400811101 /* HPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPServer.h; sourceTree = "<group>"; };
+		0605DABB1D49B1A400811101 /* HPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPServer.m; sourceTree = "<group>"; };
+		0605DABD1D49B1AF00811101 /* HPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPClient.h; sourceTree = "<group>"; };
+		0605DABE1D49B1AF00811101 /* HPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPClient.m; sourceTree = "<group>"; };
+		0605DAC01D49BE0400811101 /* HPProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPProxy.h; sourceTree = "<group>"; };
+		0605DAC11D49BE0400811101 /* HPProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPProxy.m; sourceTree = "<group>"; };
+		0605DAC31D49C0DE00811101 /* HPParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPParser.h; sourceTree = "<group>"; };
+		0605DAC41D49C0DE00811101 /* HPParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPParser.m; sourceTree = "<group>"; };
 		06CADFE41D474953009FC910 /* HttpProxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HttpProxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06CADFE81D474953009FC910 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06CADFEA1D474953009FC910 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +44,11 @@
 		06CADFF31D474953009FC910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06CADFF61D474953009FC910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06CADFF81D474954009FC910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06CADFFF1D474A02009FC910 /* Documentation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
+		06CAE0001D474A02009FC910 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		06CAE0011D474A02009FC910 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		06CAE0021D474A02009FC910 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		06CAE0031D474A02009FC910 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 		06CADFE61D474953009FC910 /* HttpProxy */ = {
 			isa = PBXGroup;
 			children = (
+				06CADFFE1D474A02009FC910 /* GCD */,
 				06CADFEA1D474953009FC910 /* AppDelegate.h */,
 				06CADFEB1D474953009FC910 /* AppDelegate.m */,
 				06CADFED1D474953009FC910 /* ViewController.h */,
@@ -67,6 +91,16 @@
 				06CADFF51D474953009FC910 /* LaunchScreen.storyboard */,
 				06CADFF81D474954009FC910 /* Info.plist */,
 				06CADFE71D474953009FC910 /* Supporting Files */,
+				0605DAB71D49B18E00811101 /* HPConnection.h */,
+				0605DAB81D49B18E00811101 /* HPConnection.m */,
+				0605DABA1D49B1A400811101 /* HPServer.h */,
+				0605DABB1D49B1A400811101 /* HPServer.m */,
+				0605DABD1D49B1AF00811101 /* HPClient.h */,
+				0605DABE1D49B1AF00811101 /* HPClient.m */,
+				0605DAC01D49BE0400811101 /* HPProxy.h */,
+				0605DAC11D49BE0400811101 /* HPProxy.m */,
+				0605DAC31D49C0DE00811101 /* HPParser.h */,
+				0605DAC41D49C0DE00811101 /* HPParser.m */,
 			);
 			path = HttpProxy;
 			sourceTree = "<group>";
@@ -77,6 +111,18 @@
 				06CADFE81D474953009FC910 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06CADFFE1D474A02009FC910 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				06CADFFF1D474A02009FC910 /* Documentation.html */,
+				06CAE0001D474A02009FC910 /* GCDAsyncSocket.h */,
+				06CAE0011D474A02009FC910 /* GCDAsyncSocket.m */,
+				06CAE0021D474A02009FC910 /* GCDAsyncUdpSocket.h */,
+				06CAE0031D474A02009FC910 /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +185,7 @@
 				06CADFF71D474953009FC910 /* LaunchScreen.storyboard in Resources */,
 				06CADFF41D474953009FC910 /* Assets.xcassets in Resources */,
 				06CADFF21D474953009FC910 /* Main.storyboard in Resources */,
+				06CAE0041D474A02009FC910 /* Documentation.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +196,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0605DAB91D49B18E00811101 /* HPConnection.m in Sources */,
+				0605DABF1D49B1AF00811101 /* HPClient.m in Sources */,
+				06CAE0051D474A02009FC910 /* GCDAsyncSocket.m in Sources */,
+				06CAE0061D474A02009FC910 /* GCDAsyncUdpSocket.m in Sources */,
 				06CADFEF1D474953009FC910 /* ViewController.m in Sources */,
 				06CADFEC1D474953009FC910 /* AppDelegate.m in Sources */,
+				0605DABC1D49B1A400811101 /* HPServer.m in Sources */,
 				06CADFE91D474953009FC910 /* main.m in Sources */,
+				0605DAC51D49C0DE00811101 /* HPParser.m in Sources */,
+				0605DAC21D49BE0400811101 /* HPProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +356,7 @@
 				06CADFFD1D474954009FC910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

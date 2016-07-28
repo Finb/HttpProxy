@@ -9,5 +9,5 @@
 #import "HPConnection.h"
 
 @interface HPClient : HPConnection
-
+- (instancetype)initWithSocket:(GCDAsyncSocket *)socket;
 @end
